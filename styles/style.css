@@ -117,8 +117,9 @@ padding: 10px;
 }
 .banner-title{
     font-weight: 700;
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 10px;
+    border-left: 3px solid #FF900E;;
 }
 .banner-descroption{
     font-weight: 400;
