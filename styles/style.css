@@ -113,16 +113,18 @@ padding: 10px;
     display: flex;
     margin-top: 80px;
     margin: 0px 150px;
-    gap: 40px;
+    gap: 70px;
 }
 .banner-title{
     font-weight: 700;
     font-size: 45px;
+    margin-bottom: 10px;
 }
 .banner-descroption{
     font-weight: 400;
 font-size: 13px;
 color: #727272;
+margin-bottom: 10px;
 }
 .banner-box1{
     background: #FFFFFF;
@@ -191,13 +193,96 @@ color: #131313;
 font-size: 16px;
 color: #727272;
 }
+.banner img{
+    height: 600px;
+}
 .banner-btn{
     background: #FF900E;
-/* border-radius: 10px 12px; */
-padding: 20px;
-border: none;
 position: absolute;
+font-weight: 700;
 font-size: 45px;
-font-weight: 700px;
+margin-top: 520px;
+margin-left: -480px;
+padding: 15px;
+border-radius: 10px;
+border: none;
+color: #FFFFFF;
+line-height: 35px;
 
+}
+.ex{
+    font-weight: 500;
+font-size: 25px;
+color: #FFFFFF;
+padding-top: 0px;
+}
+/* facts */
+.fact{
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.fact-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.fact-description{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin-bottom: 120px;
+}
+.border{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.border-box{
+    border: 1px solid #FF900E;
+border-radius: 8px;
+padding: 30px;
+width: 130px;
+height: 130px;
+background-color:aquamarine;
+}
+.border-title{
+    ont-weight: 600;
+    font-size: 45px;
+}
+.border-description{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+/* Sponspors */
+.Sponspors{
+    text-align: center;
+}
+.Sponspors-title{
+    font-weight: 700;
+font-size: 45px;
+margin-bottom: 20px;
+}
+.sponspors-description{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
+.Sponspors-name{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+    
+}
+/* footer */
+.end{
+   margin: 120px;
+    text-align: center;
+    background: #FFF4E7;
+border-radius: 8px;
+padding: 20px;
+font-weight: 400;
+font-size: 20px;
 }
